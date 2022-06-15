@@ -1,4 +1,4 @@
-package entities;
+package bankmanager.entities;
 
 public class User {
 

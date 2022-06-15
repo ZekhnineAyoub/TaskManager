@@ -1,6 +1,7 @@
-package entities;
+package bankmanager.entities;
 
-import enums.State;
+
+import bankmanager.enums.State;
 
 import java.util.Date;
 import java.util.List;

@@ -1,10 +1,11 @@
-package services.Impl;
+package bankmanager.services.Impl;
 
+import bankmanager.entities.Bank;
+import bankmanager.entities.User;
+import bankmanager.enums.State;
+import bankmanager.services.Interface.BankServiceInterface;
 import com.google.gson.Gson;
-import entities.Bank;
-import entities.User;
-import enums.State;
-import services.Interface.BankServiceInterface;
+
 
 import java.io.FileWriter;
 import java.io.PrintWriter;
@@ -17,7 +18,7 @@ public class BankServiceInterfaceImpl implements BankServiceInterface {
 
     @Override
     public void createFirstBank() {
-        String path = "src/main/java/data/data.json";
+        String path = "src/main/java/bankmanager/data/data.json";
 
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("uuuu/MM/dd");
         ArrayList<Bank> banks = new ArrayList<>();

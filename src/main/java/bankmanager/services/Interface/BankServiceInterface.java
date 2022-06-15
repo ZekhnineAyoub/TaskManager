@@ -1,6 +1,6 @@
-package services.Interface;
+package bankmanager.services.Interface;
 
-import entities.Bank;
+import bankmanager.entities.Bank;
 
 import java.util.Date;
 import java.util.List;
